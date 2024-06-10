@@ -1,0 +1,2353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- nab bar starts -->
+    <nav>
+        <div class="nb_blog_navbar nb_blog_main_container">
+            <div class="nb_left_nav">
+                <div class="hamburger-lines" id="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+
+                <div id="mobileBackground"></div>
+
+                <div class="dropdown-content" id="dropdownContent">
+
+                    <span class="nav_close_btn">×</span>
+
+                    <div class="nav_signin_container">
+                        <a href="" class="signin_link"><svg width="30px" height="30px" viewBox="-1.44 -1.44 26.88 26.88"
+                                fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"
+                                stroke-width="0.00024000000000000003">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.25 9C8.25 6.92893 9.92893 5.25 12 5.25C14.0711 5.25 15.75 6.92893 15.75 9C15.75 11.0711 14.0711 12.75 12 12.75C9.92893 12.75 8.25 11.0711 8.25 9ZM12 6.75C10.7574 6.75 9.75 7.75736 9.75 9C9.75 10.2426 10.7574 11.25 12 11.25C13.2426 11.25 14.25 10.2426 14.25 9C14.25 7.75736 13.2426 6.75 12 6.75Z"
+                                        fill="#ffffff"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12ZM12 2.75C6.89137 2.75 2.75 6.89137 2.75 12C2.75 14.5456 3.77827 16.851 5.4421 18.5235C5.6225 17.5504 5.97694 16.6329 6.68837 15.8951C7.75252 14.7915 9.45416 14.25 12 14.25C14.5457 14.25 16.2474 14.7915 17.3115 15.8951C18.023 16.6329 18.3774 17.5505 18.5578 18.5236C20.2217 16.8511 21.25 14.5456 21.25 12C21.25 6.89137 17.1086 2.75 12 2.75ZM17.1937 19.6554C17.0918 18.4435 16.8286 17.5553 16.2318 16.9363C15.5823 16.2628 14.3789 15.75 12 15.75C9.62099 15.75 8.41761 16.2628 7.76815 16.9363C7.17127 17.5553 6.90811 18.4434 6.80622 19.6553C8.28684 20.6618 10.0747 21.25 12 21.25C13.9252 21.25 15.7131 20.6618 17.1937 19.6554Z"
+                                        fill="#ffffff"></path>
+                                </g>
+                            </svg>
+
+                            Login / Sign up
+                            <svg width="15px" height="15px" viewBox="-51.2 -51.2 1126.40 1126.40" class="icon"
+                                version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z"
+                                        fill="#ffffff"></path>
+                                </g>
+                            </svg>
+                        </a>
+
+                        <div class="nav_post_prop">
+
+                            <a href=""> <svg width="25" height="25" viewBox="0 0 30 28" fill="#FD3753"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.0369 0.554192C13.3919 0.199343 13.8732 0 14.3751 0C14.877 0 15.3584 0.199343 15.7134 0.554192L20.0536 4.89442V2.44701C20.0536 2.19601 20.1533 1.95528 20.3308 1.7778C20.5083 1.60031 20.749 1.5006 21 1.5006H22.8928C23.1438 1.5006 23.3845 1.60031 23.562 1.7778C23.7395 1.95528 23.8392 2.19601 23.8392 2.44701V8.68006L28.2949 13.1339C28.3829 13.2219 28.4527 13.3263 28.5003 13.4413C28.548 13.5563 28.5725 13.6795 28.5725 13.8039C28.5725 13.9284 28.548 14.0516 28.5003 14.1666C28.4527 14.2815 28.3829 14.386 28.2949 14.474C28.2069 14.562 28.1025 14.6318 27.9875 14.6794C27.8725 14.727 27.7493 14.7515 27.6249 14.7515C27.5004 14.7515 27.3772 14.727 27.2622 14.6794C27.1473 14.6318 27.0428 14.562 26.9548 14.474L14.3751 1.89241L4.91104 11.3565V23.268C4.91104 23.519 5.01075 23.7597 5.18823 23.9372C5.36572 24.1147 5.60644 24.2144 5.85745 24.2144H13.4287C13.6797 24.2144 13.9204 24.3141 14.0979 24.4916C14.2754 24.6691 14.3751 24.9098 14.3751 25.1608C14.3751 25.4118 14.2754 25.6526 14.0979 25.83C13.9204 26.0075 13.6797 26.1072 13.4287 26.1072H5.85745C5.10444 26.1072 4.38227 25.8081 3.84981 25.2757C3.31735 24.7432 3.01822 24.021 3.01822 23.268V13.2493L1.79546 14.474C1.70746 14.562 1.603 14.6318 1.48803 14.6794C1.37306 14.727 1.24984 14.7515 1.1254 14.7515C1.00096 14.7515 0.877736 14.727 0.762768 14.6794C0.647799 14.6318 0.543336 14.562 0.455342 14.474C0.367349 14.386 0.297549 14.2815 0.249928 14.1666C0.202306 14.0516 0.177795 13.9284 0.177795 13.8039C0.177795 13.6795 0.202306 13.5563 0.249928 13.4413C0.297549 13.3263 0.367349 13.2219 0.455342 13.1339L13.0369 0.554192Z"
+                                        fill="#FD3753" />
+                                    <path
+                                        d="M23.1973 28C24.9543 28 26.6394 27.3021 27.8818 26.0597C29.1242 24.8173 29.8222 23.1322 29.8222 21.3752C29.8222 19.6181 29.1242 17.9331 27.8818 16.6907C26.6394 15.4483 24.9543 14.7503 23.1973 14.7503C21.4403 14.7503 19.7552 15.4483 18.5128 16.6907C17.2704 17.9331 16.5724 19.6181 16.5724 21.3752C16.5724 23.1322 17.2704 24.8173 18.5128 26.0597C19.7552 27.3021 21.4403 28 23.1973 28ZM23.8674 16.9195L26.7066 19.7587C26.8843 19.9364 26.9841 20.1774 26.9841 20.4288C26.9841 20.6801 26.8843 20.9211 26.7066 21.0988C26.5289 21.2765 26.2879 21.3764 26.0365 21.3764C25.7852 21.3764 25.5442 21.2765 25.3665 21.0988L24.1437 19.8742V25.1608C24.1437 25.4118 24.044 25.6525 23.8665 25.83C23.689 26.0075 23.4483 26.1072 23.1973 26.1072C22.9463 26.1072 22.7056 26.0075 22.5281 25.83C22.3506 25.6525 22.2509 25.4118 22.2509 25.1608V19.8742L21.0281 21.0988C20.8507 21.2765 20.6099 21.3765 20.3588 21.3766C20.1076 21.3768 19.8667 21.2772 19.689 21.0998C19.5113 20.9223 19.4113 20.6815 19.4111 20.4304C19.411 20.1792 19.5106 19.9383 19.688 19.7606L22.5273 16.9214C22.6152 16.8332 22.7196 16.7633 22.8346 16.7156C22.9496 16.6679 23.0728 16.6433 23.1973 16.6433C23.3218 16.6433 23.4451 16.6679 23.56 16.7156C23.675 16.7633 23.7795 16.8332 23.8674 16.9214V16.9195Z"
+                                        fill="#FD3753" />
+                                </svg>Post Free Property Ad</a>
+                        </div>
+
+                        <div class="nav_searchbar">
+                            <input type="text" placeholder="Search articles..." id="searchInput">
+                            <button type="submit" class="icon" id="search_icon">
+                                <!-- SVG for search icon -->
+                                <svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M17 17L21 21" stroke=" #444444" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path
+                                            d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                                            stroke=" #444444" stroke-width="2"></path>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="nav_link">
+                        <a href="">Home</a>
+                        <a href="">Real Estate</a>
+                        <a href="">Home Services</a>
+                        <a href="">Finance</a>
+                        <a href="">Interiors</a>
+                        <a href="">Legal</a>
+                        <a href="">Packers & Movers</a>
+                        <a href="">NRI</a>
+                        <a href="">Payment</a>
+                        <a href="">News</a>
+                        <a href="">Webstories</a>
+
+                    </div>
+                </div>
+
+
+
+                <div class="nb_blog_logo">
+                    <img src="https://s3-alpha-sig.figma.com/img/35f6/42be/e6e263369c30fabe272a9ccf666c425f?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gS6VbF4igZYogNcJfMvvTZN8x5HhIxBdjEgowO-lovXMQB5gBrl1gLLRStv50Is7pIqqYMS5iVMsOkQcOr9ihhl~AwJ-i2y-5zmAZtG~4tfyCEXB6AtFHfOYJcw9V12egLsJVAZj6fHUi-d0vSuHgyD1gxzVA-PtxTUoL95wchaHhkQlwCoxYHPL7u6sAvAyhPLmUQ~CKwdjazKx9EO76uIMAwmZbU23EP~7gd9EVkmKsjdnsiFM98TCr0kdcZx6BScoPGqmhOXzySquIVlG2NuXTmJPzoc6ba47LB0xXLFcbdOAPodsc1M0JIFSIwSrcOWeJpWy-AYHygs-BPQj3Q__"
+                        alt="The Nobroker Times Logo" width="220" height="35">
+                </div>
+            </div>
+            <div class="nb_right_nav">
+                <div class="nb_blog_property_add_button"><a href="">Post FREE Property Ad</a></div>
+                <div class="nb_blog_searchbar">
+                    <input type="text" placeholder="Search articles...">
+                    <button type="submit" class="icon" id="search_icon">
+                        <!-- SVG for search icon -->
+                        <svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M17 17L21 21" stroke=" #444444" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path
+                                    d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                                    stroke=" #444444" stroke-width="2"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="mob_search_icon" id="nav_search_icon">
+                <svg width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M17 17L21 21" stroke=" #444444" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                        <path
+                            d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                            stroke=" #444444" stroke-width="2"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <!-- nav ends -->
+
+    <!-- hero section starts -->
+    <section class="nb_blog_hero_sec">
+        <div class="nb_blog_hero_container nb_blog_main_container">
+            <div class="nb_blog_left_hero">
+
+
+                <h1>
+                    <span style="left: 0;"></span>
+                    Unveiling Home
+                    <span style="right: 0;"></span>
+                </h1>
+
+                <p>Real Estate, Services &
+                    Inspiration Unbounded</p>
+                <button class="nb_blog_subscribe_button" id="open-popup">Subscribe to our blogs</button>
+
+
+                <div class="overlay"></div>
+                <div id="popup-container">
+                    <div id="popup">
+                        <span class="close-btn">&times;</span>
+                        <h2>Subscribe to our newsletter</h2>
+                        <p>Get latest news delivered straight to you inbox</p>
+
+                        <form action="">
+                            <input type="email" placeholder="Enter your email address">
+                            <p>Select at least 3 categories</p>
+                            <div id="categories">
+                                <div class="category" data-id="1">Category 1</div>
+                                <div class="category" data-id="2">Category 2</div>
+                                <div class="category" data-id="3">Category 3</div>
+                                <div class="category" data-id="4">Category 4</div>
+                                <div class="category" data-id="5">Category 5</div>
+                                <div class="category" data-id="6">Category 6</div>
+                                <div class="category" data-id="7">Category 7</div>
+                            </div>
+                            <div id="error-message">Please select at least three categories.</div>
+                            <button id="submit-btn">Subscribe Now</button>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="nb_blog_right_hero">
+                <!-- left arrow -->
+                <i id="leftarrow">
+                    <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                            transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#98BCE2"
+                                strokewidth="0">
+                            </rect>
+                        </g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </i>
+                <!-- right arrow -->
+                <i id="rightarrow">
+                    <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                            transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#98BCE2"
+                                strokewidth="0">
+                            </rect>
+                        </g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </i>
+
+                <!-- carousel container -->
+                <div class="nb_blog_hero_carousel">
+
+                    <!-- carousel card1 -->
+                    <div class="nb_blog_hero_carousel_card">
+                        <img src="https://s3-alpha-sig.figma.com/img/8721/7138/a6de7831a5605e64d1e7bd0abd406b26?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MynY3Kt6fQr9ezssifJSxbldrCwTpn4N1ydNcOMR29aj~43tOnjSSralqRbMkNtUeFaGOhALsUWTnm0T3qc1z522mBl3DYC7tKq0vqAdOKnX31FU5qGdRUSyJcrAOKrO7bvrjvZpDZBazvwrEdLOzRV5HZ0nEswWCDVrOHl-w0~Fsmx3m0lpPaAPK~xzr8y3l456ECTFIoQtXSwaGE4nhc8nbufVKMlUd4u~bm~2nGGqLI7CzjjXbeOEQWrJ9UJ3s5dchovguT3iS06qyetvqI9n1Annm3bWm3JFwMp6D-umMbjhOUhCZ0Z6iLTtLUzHEhdf07WZa6O82Dzqul9Wwg__"
+                            alt="">
+                        <div class="nb_blog_hero_carousel_card_details">
+                            <a href="" class="card_details_tag">Celeb Homes</a>
+                            <p class="card_details_content">Understanding Joint Ownership of Property : A Smart Approach
+                                to Investment</p>
+                            <p class="card_details_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                    <!-- carousel card1 ends  -->
+
+
+
+                    <div class="nb_blog_hero_carousel_card">
+                        <img src="https://s3-alpha-sig.figma.com/img/8721/7138/a6de7831a5605e64d1e7bd0abd406b26?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MynY3Kt6fQr9ezssifJSxbldrCwTpn4N1ydNcOMR29aj~43tOnjSSralqRbMkNtUeFaGOhALsUWTnm0T3qc1z522mBl3DYC7tKq0vqAdOKnX31FU5qGdRUSyJcrAOKrO7bvrjvZpDZBazvwrEdLOzRV5HZ0nEswWCDVrOHl-w0~Fsmx3m0lpPaAPK~xzr8y3l456ECTFIoQtXSwaGE4nhc8nbufVKMlUd4u~bm~2nGGqLI7CzjjXbeOEQWrJ9UJ3s5dchovguT3iS06qyetvqI9n1Annm3bWm3JFwMp6D-umMbjhOUhCZ0Z6iLTtLUzHEhdf07WZa6O82Dzqul9Wwg__"
+                            alt="">
+                        <div class="nb_blog_hero_carousel_card_details">
+                            <a href="" class="card_details_tag">Celeb Homes</a>
+                            <p class="card_details_content">Understanding Joint Ownership of Property : A Smart Approach
+                                to Investment</p>
+                            <p class="card_details_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+                    <div class="nb_blog_hero_carousel_card">
+                        <img src="https://s3-alpha-sig.figma.com/img/8721/7138/a6de7831a5605e64d1e7bd0abd406b26?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MynY3Kt6fQr9ezssifJSxbldrCwTpn4N1ydNcOMR29aj~43tOnjSSralqRbMkNtUeFaGOhALsUWTnm0T3qc1z522mBl3DYC7tKq0vqAdOKnX31FU5qGdRUSyJcrAOKrO7bvrjvZpDZBazvwrEdLOzRV5HZ0nEswWCDVrOHl-w0~Fsmx3m0lpPaAPK~xzr8y3l456ECTFIoQtXSwaGE4nhc8nbufVKMlUd4u~bm~2nGGqLI7CzjjXbeOEQWrJ9UJ3s5dchovguT3iS06qyetvqI9n1Annm3bWm3JFwMp6D-umMbjhOUhCZ0Z6iLTtLUzHEhdf07WZa6O82Dzqul9Wwg__"
+                            alt="">
+                        <div class="nb_blog_hero_carousel_card_details">
+                            <a href="" class="card_details_tag">Celeb Homes</a>
+                            <p class="card_details_content">Understanding Joint Ownership of Property : A Smart Approach
+                                to Investment</p>
+                            <p class="card_details_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+                    <div class="nb_blog_hero_carousel_card">
+                        <img src="https://s3-alpha-sig.figma.com/img/8721/7138/a6de7831a5605e64d1e7bd0abd406b26?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MynY3Kt6fQr9ezssifJSxbldrCwTpn4N1ydNcOMR29aj~43tOnjSSralqRbMkNtUeFaGOhALsUWTnm0T3qc1z522mBl3DYC7tKq0vqAdOKnX31FU5qGdRUSyJcrAOKrO7bvrjvZpDZBazvwrEdLOzRV5HZ0nEswWCDVrOHl-w0~Fsmx3m0lpPaAPK~xzr8y3l456ECTFIoQtXSwaGE4nhc8nbufVKMlUd4u~bm~2nGGqLI7CzjjXbeOEQWrJ9UJ3s5dchovguT3iS06qyetvqI9n1Annm3bWm3JFwMp6D-umMbjhOUhCZ0Z6iLTtLUzHEhdf07WZa6O82Dzqul9Wwg__"
+                            alt="">
+                        <div class="nb_blog_hero_carousel_card_details">
+                            <a href="" class="card_details_tag">Celeb Homes</a>
+                            <p class="card_details_content">Understanding Joint Ownership of Property : A Smart Approach
+                                to Investment</p>
+                            <p class="card_details_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- hero section ends -->
+
+
+
+    <!-- main starts -->
+    <main class="nb_blog_main_container">
+
+        <!-- category carousel -->
+        <section class="nb_blog_category_sec">
+            <!-- left arrow -->
+            <i id="leftarrow">
+                <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"
+                        transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                        <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444" strokewidth="0">
+                        </rect>
+                    </g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </g>
+                </svg>
+            </i>
+            <!-- right arrow -->
+            <i id="rightarrow">
+                <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"
+                        transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                        <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444" strokewidth="0">
+                        </rect>
+                    </g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </g>
+                </svg>
+            </i>
+
+            <div class="nb_blog_category_carousel">
+                <!-- category carousel card1 -->
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/ed90/4993/cbe6c72ecce1f2c10d70d3a286eb5aeb?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oXdmRjg57tbLF8xSWiS1V-OxaS2j0d2T30hrarJzlnc0FzgOlDLO8HrtcEnRo9b1sGJhaG5fRK~OGZRzbi3~eLJt8EsSOpMVV4-xGhiZGQ5B-z-rLNWVPLOReFtJCtv1q0NPgamWXk8mXFR6ChEnkKcRSR7V~EMeszvLBSWnKps~JswsWv0LiQCrMRac7y~~adX6hUBXkdilPA-mDKQdFvYEfNagK6JFGp48lzFYoXBIkGNVdzJ5uWMqpjdbTIv0Tqh52wYJzBoYItlyKGjV6jSICMxVgTzBTCbe6OkQIasIzFbr80Plvx-cKyi9XT-aC9oBKlh-lp39hr5XUFLGxw__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">Real Estate</p>
+                        <p class="category_article">1000+ Articles</p>
+                    </div>
+                </div>
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/3a41/14d8/950ec53e74a21401b213aabda0684e66?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ID2eVjyyt9KkG1IY9dzk-zM-RnDaEaWYdsZ1NNb5L-n78Wx0~e0uZ~F4kAn0P8senCrc6pyjtjWu6MVQnIAmqsnN1yCiU21CYK-JuVd6nq9SvrXAmR~F6VKORGM-XOuIcfJY-GqFK8lrhmdnGgppzMIjcP9t4KyPMA92W7OI~2YQZoziiX3Tk10MjLTftJwcy7i~IidM6OP4AOS8PzskwN5BntJLQQpZA6PdujgiuRhfG5pAZAiYmpTcTC-ebOX2B1eyE6t-ylMF~L1C30wJj-bF7-tcfvKrTzaYmzrJwVVjJe1S3ZZ7qTVaotyA3DH5lcajELrJi3xHKRj1FyBLbg__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">Home Services</p>
+                        <p class="category_article">1200+ Articles</p>
+                    </div>
+                </div>
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/1ecf/e5a7/64ef5a9b18a70c1c4b2205356a686312?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KxCfNNfwFsouEmK~ui8PAicJdl2DGvODwxv5uYlcybgTULblCpnITQqU9JjgH3Of6sO1QeQUM~XKeNhHFDJyHa5R5kt1LfoBRa3XIyyQKpmtFTvL8hsQYqcatc2~oIyYKQfFFZF0B847oeokpratBM-xRxkGhzPjsGqYIm04XVgXB8cbgHd06B7u3RHuLcrowS0TtSMjYnuDjNQXHi~OyAA7L5MRX~D--NEcVvYUnYtmXgG2ZHnDJq~y7yLnACpR-ZEDUWcumtIgYRSYQv4o-w2bwga-fKgStBJHC6-ZZH6QdWZ~pQo8jqX0euqPxhzuSMo~uzXS5bdywp-T4KudZg__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">Finance</p>
+                        <p class="category_article">900+ Articles</p>
+                    </div>
+                </div>
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/27b3/9d11/b25bf08ae228e40e7b4988cb2613a7f4?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BOSBSQWXQhvcnhCkNY3u6vDI9pkas8h6x6ZCitvhzQ~o7QF62JirSVGIksP3opklPHjccIsHYQbkenVvefqfJq9UdQsYegU0phaM4bkVe489G5gxpprZrnMM6hDbI29Iz-bZb-C9bQz283cROCbX9--sYDzs0W7Pru6qdpI5aIba3YlXRTlXFrvH3K3x3Kr1NlrUZ4r8VVxMm3GimygPAQO3fzc3d4ZBRgsOFoz4vRucGLwhwFe5d4l6egPFteMTSQ8bk51sOHcBLKygFrbHwmPBzYhCC6SlCDTEKGxqm6Vn6cQPy7e~GZGYvTE1fByVlZULTz5KHroJpzpplaa1-g__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">Interiors</p>
+                        <p class="category_article">500+ Articles</p>
+                    </div>
+                </div>
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/bb34/04a5/074f4483afa65b28ae475d609b49e07d?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U~Quj9W1~NNdzk-Uw5qniz2DLxP9SeRDuhnEdQzeJmzYz8rvDbNFv6BWJZ720V7nNFd~zoH-OnzqEbpxnQ-lUoLiIzr41aO3to~OBa2HRGh1m14jeuw9Yy9RsmAC35A-Gmqa7UnPpnIxhGTiaVXdYb2S8mZak1LTC73oZWH3bMnAO4s8svuAkh2Yfimg1aNOWvykFrUnD4tVOcKUF3mEl3dikKWoFOsTJ9qzyQ3anUr8U89gJHhFF2roLZ3fEMQzt87NsYklnE3M0lbFDW2v9a7~IQSQBh6Cncmc~05xkrjh5cGNGHt4YdE9Y~uCjfBY-fSm6BRwFEOYZSFf04x2CQ__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">Legal</p>
+                        <p class="category_article">600+ Articles</p>
+                    </div>
+                </div>
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/dd1a/66fe/e154eed66a9b23ff5a7da1a7e37fcbea?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OXjBadlLz~rFSPKTcM3FfBTYVLO280ZdtTa27bf-MioTtXXHIbMlylnAqxkoMpysXyYTYChCkefB4X23FtHe30YaqZO1mFc9jMb7GNeCQhrGHKuEQBCI8y5LTTW-zVpEE1ZVEUhUYKJnuQXXUK3~ksl2oE2UiwrPFasWoQO0EGSZobkDtFiYcmg8rERnbEr5X1ykoXBFj56AoEK2NOy6rXJ8V2~z5sJbpiI6NaiHSNhgcsjoev7arRoLetqbRg-y56MAgp73cOQ53lAOB7QabjztJQ~DmfimhRVsMvnApt7azwQFkWl3byZiZLR68irfml--PVS5CLGvLbH8llqqAA__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">Packer & Movers</p>
+                        <p class="category_article">400+ Articles</p>
+                    </div>
+                </div>
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/c1f9/26a5/84b01d9ee98669aca155273b34cf88eb?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QOMCgyhb7GmDMuaEg~dCUfpCRKi~zdFIYJbNYB6jDtfIDXKewp6HwtkZ8xlnUolePxE3N1UkVDPIo-PYdnrPKmDkoay4xIRq1B0jUzWG2B0YsmYJnQU4rCz0725laCBS~FwGR8ICDs-XE~zQcb-vCz6Eeqfo8OXn1ktnRcyEZme5kfJFzQ-vm-hDhwrrPNumVq4m3C1yWP96eTEWkgeq2uQcIBvOYMy8BfrXVo2dxpy-vk6aRHeCmCF8pMrugaNcxhLYFwS4U9lXP4-yTT~qXGW8co4CJsR7Toudr9ZzFcMTRlkkdubRYmO3y9RyIubKn0nFXxuZl3IYHEJOPaMQJQ__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">NRI</p>
+                        <p class="category_article">700+ Articles</p>
+                    </div>
+                </div>
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/ba30/dbdb/0a4aab0b44d41e99203ab456db70ff6c?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TmGXc1BIfiNBsF38AQdvz0Iopr3H7zbPVLk9gF3LukvEJiEb-vLsfscjh4KdvSGW3YCLXQfnqTlUB3QHkBQy4Tdz2ksXobrz2RjBoyiBp~oI2IUm369-nEttLhf2LFSQ55QkocZ~yDPH0BJ5ceiJHZ4Ow6Kb6bc2e0vvYIRRY4AYygTt04V1matHsCmd4QoJceAFed8~zdsoYTdl~ftWmB6r414~c8RqAFFAV9wM4bP3-hv7z0Zuylq~KdhJRoTDJWf78CXTxSaC2wFZgs5W6aHxWKWJWvJ4-4h9ivtOarwvh1AVzkAnU0zzUx5jEB-PN1GkS1FjiBUus1l0S9uNKQ__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">Payment</p>
+                        <p class="category_article">1000+ Articles</p>
+                    </div>
+                </div>
+
+                <div class="nb_blog_category">
+                    <img src="https://s3-alpha-sig.figma.com/img/ff68/b281/56d7c33b4731e8c35a1c01defcaf745d?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i0cv~j2OGQG8u4cHGZBvKbyRM55FlVDXNXKYPNKxtNjnpIwvbUtS-5hSPCDR6N5uK7Hnz16IeucqZhbzMOXqdoAJnveYEltAna00SmbqIOgMV9XMG7yFqVBKlS-fglRAiN6syFiJNVSbPDTMd1PKvHU7THE71XZ2chBlgTeOFxkjDqZjJBa-iCxMpyiFiJbD4v5Zcr8rv1eKXqE1iUEGsAP0wdB-qKdT8wwrk80TGz3Qpc69bwvCUP8mPyA-CKJKc7WTIuJQpBd1uFAk8wEItbLHvGMHr~l44D1rvK-dvMGBXKbECusHQccgZDu1Krw8Q4CKr3BU9gZ~583J4xBF0g__"
+                        alt="category image" width="100%" height="100%">
+                    <div class="category_details">
+                        <p class="category_name">News</p>
+                        <p class="category_article">1400+ Articles</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- category carousel ends -->
+
+
+        <!-- Subscribe section -->
+        <section class="nb_blog_subscribe_section">
+            <form action="" class="nb_blog_subscribe">
+                <div class="nb_blog_subscribe_content">
+                    <h2>Subscribe to our newsletter</h2>
+                    <p>Get latest news delivered straight to you inbox</p>
+                </div>
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe Now</button>
+            </form>
+        </section>
+        <!-- Subscribe section ends -->
+
+
+        <!-- Real estate section -->
+        <section class="nb_blog_realestate_section" id="realestateSection">
+            <h2 class="nb_blog_realestate_heading">Real Estate</h2>
+
+            <div class="nb_blog_realestate_tab_container">
+                <!-- TAB CONTROLS -->
+                <!-- tab head -->
+                <div class="nb_blog_realestate_tab_head">
+                    <button class="nb_blog_tab_button active"
+                        onclick="openfeat(event, 'buyer', 'realestateSection')">Buyer Guide</button>
+                    <button class="nb_blog_tab_button" onclick="openfeat(event,'Seller', 'realestateSection')">Seller
+                        Guide</button>
+                    <button class="nb_blog_tab_button" onclick="openfeat(event, 'Rental', 'realestateSection')">Rental
+                        Guide</button>
+                </div>
+
+
+                <!--  -->
+                <div class="nb_blog_realestate_container features" id="buyer">
+                    <div class="nb_blog_realestate_carousel">
+
+
+                        <div class="nb_blog_realestate_card">
+                            <div class="nb_blog_realestate_card_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+
+                            </div>
+                            <div class="nb_blog_realestate_card_content">
+                                <h3 class="realestate_card_content_head">
+                                    Home Buying Process in India: Types of Properties and Home Loan
+                                </h3>
+                                <div class="realestate_card_content">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                                <p class="realestate_card_content_date">December 26 , 2023 by <span
+                                        style="color: #FD3753;">Prakhar
+                                        Sushant</span></p>
+                            </div>
+                        </div>
+                        <div class="realestate_cards">
+                            <div class="realestate_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="realestate_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+
+                            <div class="realestate_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="realestate_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nb_blog_realestate_questions">
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nb_blog_realestate_viewmore">
+                        <button>View More in Buyer Guide</button>
+                    </div>
+                </div>
+                <!--  -->
+
+                <div class="nb_blog_realestate_container features" id="Seller" style="display:none;">
+                    <div class="nb_blog_realestate_carousel">
+                        <div class="nb_blog_realestate_card">
+                            <div class="nb_blog_realestate_card_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+
+                            </div>
+                            <div class="nb_blog_realestate_card_content">
+                                <h3 class="realestate_card_content_head">
+                                    Home Buying Process in India: Types of Properties and Home Loan
+                                </h3>
+                                <div class="realestate_card_content">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                                <p class="realestate_card_content_date">December 26 , 2023 by <span
+                                        style="color: #FD3753;">Prakhar
+                                        Sushant</span></p>
+                            </div>
+                        </div>
+                        <div class="realestate_cards">
+                            <div class="realestate_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="realestate_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+
+                            <div class="realestate_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="realestate_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nb_blog_realestate_questions">
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nb_blog_realestate_viewmore">
+                        <button>View More in Seller Guide</button>
+                    </div>
+                </div>
+                <!--  -->
+
+                <div class="nb_blog_realestate_container features" id="Rental" style="display:none;">
+                    <div class="nb_blog_realestate_carousel">
+                        <div class="nb_blog_realestate_card">
+                            <div class="nb_blog_realestate_card_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+
+                            </div>
+                            <div class="nb_blog_realestate_card_content">
+                                <h3 class="realestate_card_content_head">
+                                    Home Buying Process in India: Types of Properties and Home Loan
+                                </h3>
+                                <div class="realestate_card_content">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                                <p class="realestate_card_content_date">December 26 , 2023 by <span
+                                        style="color: #FD3753;">Prakhar
+                                        Sushant</span></p>
+                            </div>
+                        </div>
+                        <div class="realestate_cards">
+                            <div class="realestate_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="realestate_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+
+                            <div class="realestate_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="realestate_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nb_blog_realestate_questions">
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="realestate_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nb_blog_realestate_viewmore">
+                        <button>View More in Rental Guide</button>
+                    </div>
+                </div>
+                <!--  -->
+
+
+            </div>
+
+        </section>
+        <!-- Real estate section ends -->
+
+
+        <!-- Home Services section -->
+        <section class="nb_blog_homeservice_section" id="homeserviceSection">
+            <h2 class="nb_blog_homeservice_heading">Home Services</h2>
+
+            <div class="nb_blog_homeservice_tab_container">
+                <!-- TAB CONTROLS -->
+                <!-- tab head -->
+                <div class="nb_blog_homeservice_tab_head">
+                    <button class="nb_blog_tab_button active"
+                        onclick="openfeat(event, 'homeservicebuyer', 'homeserviceSection')">Buyer Guide</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event,'homeserviceSeller', 'homeserviceSection')">Seller
+                        Guide</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event, 'homeserviceRental', 'homeserviceSection')">Rental
+                        Guide</button>
+                </div>
+
+
+                <!--  -->
+                <div class="nb_blog_homeservice_container features" id="homeservicebuyer">
+
+                    <div class="nb_blog_homeservice_carousel">
+
+                        <div class="nb_blog_homeservice_card">
+                            <div class="nb_blog_homeservice_card_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+
+                            </div>
+                            <div class="nb_blog_homeservice_card_content">
+                                <h3 class="homeservice_card_content_head">
+                                    Home Buying Process in India: Types of Properties and Home Loan
+                                </h3>
+                                <div class="homeservice_card_content">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                                <p class="homeservice_card_content_date">December 26 , 2023 by <span
+                                        style="color: #FD3753;">Prakhar
+                                        Sushant</span></p>
+                            </div>
+                        </div>
+                        <div class="homeservice_cards">
+                            <div class="homeservice_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="homeservice_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+
+                            <div class="homeservice_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="homeservice_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nb_blog_homeservice_questions">
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nb_blog_realestate_viewmore">
+                        <button>View More in Buyer Guide</button>
+                    </div>
+                </div>
+                <!--  -->
+
+                <div class="nb_blog_homeservice_container features" id="homeserviceSeller" style="display:none;">
+                    <div class="nb_blog_homeservice_carousel">
+
+                        <div class="nb_blog_homeservice_card">
+                            <div class="nb_blog_homeservice_card_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+
+                            </div>
+                            <div class="nb_blog_homeservice_card_content">
+                                <h3 class="homeservice_card_content_head">
+                                    Home Buying Process in India: Types of Properties and Home Loan
+                                </h3>
+                                <div class="homeservice_card_content">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                                <p class="homeservice_card_content_date">December 26 , 2023 by <span
+                                        style="color: #FD3753;">Prakhar
+                                        Sushant</span></p>
+                            </div>
+                        </div>
+                        <div class="homeservice_cards">
+                            <div class="homeservice_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="homeservice_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+
+                            <div class="homeservice_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="homeservice_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nb_blog_homeservice_questions">
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nb_blog_realestate_viewmore">
+                        <button>View More in Seller Guide</button>
+                    </div>
+                </div>
+                <!--  -->
+
+                <div class="nb_blog_homeservice_container features" id="homeserviceRental" style="display:none;">
+                    <div class="nb_blog_homeservice_carousel">
+
+                        <div class="nb_blog_homeservice_card">
+                            <div class="nb_blog_homeservice_card_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+
+                            </div>
+                            <div class="nb_blog_homeservice_card_content">
+                                <h3 class="homeservice_card_content_head">
+                                    Home Buying Process in India: Types of Properties and Home Loan
+                                </h3>
+                                <div class="homeservice_card_content">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                                <p class="homeservice_card_content_date">December 26 , 2023 by <span
+                                        style="color: #FD3753;">Prakhar
+                                        Sushant</span></p>
+                            </div>
+                        </div>
+                        <div class="homeservice_cards">
+                            <div class="homeservice_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="homeservice_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+
+                            <div class="homeservice_cards_img">
+                                <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                    alt="" width="100%" height="176px">
+                                <div class="homeservice_cards_content">
+                                    <p>Home Buying Process in India: Types of Properties and Home Loan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nb_blog_homeservice_questions">
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                            <div class="homeservice_question">
+                                <h3>Capital Gain on Property Sale in India: Know Your Liabilities</h3>
+                                <p>December 26 , 2023 by <span style="color: #FD3753;">Prakhar Sushant</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nb_blog_realestate_viewmore">
+                        <button>View More in Rental Guide</button>
+                    </div>
+                </div>
+                <!--  -->
+
+
+            </div>
+        </section>
+        <!-- homeservice section ends -->
+
+
+        <!-- whats new section -->
+        <section class="nb_blog_what_new_section" id="whatsNewSection">
+            <h2 class="nb_blog_what_new_heading">Whats new in</h2>
+
+            <div class="nb_blog_what_new_tabs_container">
+
+                <!-- TAB CONTROLS -->
+                <div class="nb_blog_whatnew_tab_head">
+                    <button class="nb_blog_tab_button active"
+                        onclick="openfeat(event, 'Pune','whatsNewSection')">Pune</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event,'Bengaluru','whatsNewSection')">Bengaluru</button>
+                    <button class="nb_blog_tab_button" onclick="openfeat(event,'Delhi','whatsNewSection')">Delhi
+                        NCR</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event, 'Chennai','whatsNewSection')">Chennai</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event,'Mumbai','whatsNewSection')">Mumbai</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event, 'Hyderabad','whatsNewSection')">Hyderabad</button>
+                </div>
+
+
+                <!-- contents -->
+                <div class="nb_blog_what_new_carousel features" id="Pune">
+
+                    <!-- left arrow -->
+                    <i id="leftarrow">
+                        <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444"
+                                    strokewidth="0">
+                                </rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </i>
+                    <!-- right arrow -->
+                    <i id="rightarrow">
+                        <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444"
+                                    strokewidth="0">
+                                </rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </i>
+
+                    <!-- card 1 -->
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                    <!-- card 1 ends -->
+
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="nb_blog_what_new_carousel features" id="Bengaluru" style="display:none;">
+
+                    <!-- left arrow -->
+                    <i id="leftarrow">
+                        <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444"
+                                    strokewidth="0">
+                                </rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </i>
+                    <!-- right arrow -->
+                    <i id="rightarrow">
+                        <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444"
+                                    strokewidth="0">
+                                </rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </i>
+
+                    <!-- card 1 -->
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                    <!-- card 1 ends -->
+
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_what_new_card">
+                        <div class="nb_blog_what_new_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_what_new_content">
+                            <a href="" class="what_new_content_tag">Buyer Guide</a>
+                            <h3 class="what_new_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="what_new_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="what_new_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- whats new section ends -->
+
+
+        <!-- trending section -->
+        <section class="nb_blog_trending_section" id="TrendingSection">
+            <h2 class="nb_blog_trending_heading">Trending News in Real Estate</h2>
+
+            <div class="nb_blog_trending_tabs_container">
+
+                <!-- TAB CONTROLS -->
+                <div class="nb_blog_trending_tab_head">
+                    <button class="nb_blog_tab_button active"
+                        onclick="openfeat(event, 'trendingPune','TrendingSection')">Pune</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event,'trendingBengaluru','TrendingSection')">Bengaluru</button>
+                    <button class="nb_blog_tab_button" onclick="openfeat(event,'Delhi','whatsNewSection')">Delhi
+                        NCR</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event, 'trendingChennai','TrendingSection')">Chennai</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event,'trendingMumbai','TrendingSection')">Mumbai</button>
+                    <button class="nb_blog_tab_button"
+                        onclick="openfeat(event, 'trendingHyderabad','TrendingSection')">Hyderabad</button>
+                </div>
+
+
+                <!-- contents -->
+                <div class="nb_blog_trending_carousel features" id="trendingPune">
+
+                    <!-- left arrow -->
+                    <i id="leftarrow">
+                        <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444"
+                                    strokewidth="0">
+                                </rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </i>
+                    <!-- right arrow -->
+                    <i id="rightarrow">
+                        <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444"
+                                    strokewidth="0">
+                                </rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </i>
+
+                    <!-- card 1 -->
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                    <!-- card 1 ends -->
+
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="nb_blog_trending_carousel features" id="trendingBengaluru" style="display:none;">
+
+                    <!-- left arrow -->
+                    <i id="leftarrow">
+                        <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444"
+                                    strokewidth="0">
+                                </rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </i>
+                    <!-- right arrow -->
+                    <i id="rightarrow">
+                        <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                                <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#444444"
+                                    strokewidth="0">
+                                </rect>
+                            </g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </i>
+
+                    <!-- card 1 -->
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                    <!-- card 1 ends -->
+
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="nb_blog_trending_card">
+                        <div class="nb_blog_trending_img">
+                            <img src="https://s3-alpha-sig.figma.com/img/d00f/0173/cf8ca86b1bf3fcc4d34e90650ace85a7?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Da37tXce~fD8BUlZcN8JyekrrIsbL5-Jy5ZJylD6k3xYXQdFlKG7l0q5PddsbspjGyuVSdrDvEtAKxpgReBwNhCZpPe525bxCqe36-n9hsFuTwSiA253cyRMVV6E~qDGjixsKSG8As3JxWTQtiUxSQ9F0GFPuptqjXkYeS2yszjNEAWTihNLUvgOzPqPAqIe4O1xLBAOlSDBQvLBEtAhONc58qTWDJYFY0TKq3vfvnIF48ZGBorWxxsMRfJZxgdchy2efVGOBWGAcAgeJXEc9bIKZXYCnnqlwqsqE1dc293p0bg4ybf5wAikGo697KY5-E--D7tDoYCltJs1ablx9Q__"
+                                alt="" width="100%" height="176px">
+
+                        </div>
+                        <div class="nb_blog_trending_content">
+                            <a href="" class="trending_content_tag">Buyer Guide</a>
+                            <h3 class="trending_content_head">
+                                Home Buying Process in India: Types of Properties and Home Loan
+                            </h3>
+                            <div class="trending_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed
+                                do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <p class="trending_content_date">December 26 , 2023 by <span style="color: #FD3753;">Prakhar
+                                    Sushant</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- whats new section ends -->
+
+    </main>
+    <!-- main ends -->
+
+    <footer>
+        <!-- main footer sections for carousels -->
+        <section class="nb_blog_main_container">
+
+            <!-- web Stories starts -->
+            <section class="nb_blog_web_stories_section">
+                <h2 class="nb_blog_webstories_heading">Trending Stories across the web</h2>
+                <!-- left arrow -->
+                <i id="leftarrow">
+                    <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                            transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#98BCE2"
+                                strokewidth="0">
+                            </rect>
+                        </g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </i>
+                <!-- right arrow -->
+                <i id="rightarrow">
+                    <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                            transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#98BCE2"
+                                strokewidth="0">
+                            </rect>
+                        </g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </i>
+
+                <div class="nb_blog_web_stories_carousel">
+                    <!-- category carousel card1 -->
+                    <div class="nb_blog_web_stories">
+                        <img src="https://s3-alpha-sig.figma.com/img/2be9/5c04/d7480404f2e56d582d83e9a6b6fd35be?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ErndKX8-n1J-zLOd0ZhYJNEswbUPRgsHSdI0hw0UG3mBcHHdHcw-qgJ0DDtb9i9FCX2ft45sXVxU8y83mWm69hTYJrq36HB9d-uMezRsP0KiJcdrXTozocveKbgrrGDWvNKHKnDIlSqEk~3wDTRyxJQNrW0uIIB5U~DTFl019Kf8qpQXoBk~9I~ABLFSaZmS6EA-oaY7u~pCRkGLcL~2MSgbLgpx-8irfIrWZCr7zg6wOvMTnQrpirk~IZfSHrwwaQiY0gr5ESk-eEsglTT~kB51kffbFwtlFcu6R4bTjYpNSNBzIM7Sa4QfS4n0nz9c6r-rwV1c1xJDjmU4oaxa-g__"
+                            alt="web_stories image" width="100%" height="100%">
+                        <div class="web_stories_details">
+                            <p class="web_stories_content">Home Buying Process in Mumbai: Types of Properties and Home
+                                Loan
+                            </p>
+                            <p class="web_stories_date">Dec 26 , 2023 by <span style="color: #FD3753;">Akash
+                                    Tiwari</span></p>
+                        </div>
+                    </div>
+
+                    <div class="nb_blog_web_stories">
+                        <img src="https://s3-alpha-sig.figma.com/img/2be9/5c04/d7480404f2e56d582d83e9a6b6fd35be?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ErndKX8-n1J-zLOd0ZhYJNEswbUPRgsHSdI0hw0UG3mBcHHdHcw-qgJ0DDtb9i9FCX2ft45sXVxU8y83mWm69hTYJrq36HB9d-uMezRsP0KiJcdrXTozocveKbgrrGDWvNKHKnDIlSqEk~3wDTRyxJQNrW0uIIB5U~DTFl019Kf8qpQXoBk~9I~ABLFSaZmS6EA-oaY7u~pCRkGLcL~2MSgbLgpx-8irfIrWZCr7zg6wOvMTnQrpirk~IZfSHrwwaQiY0gr5ESk-eEsglTT~kB51kffbFwtlFcu6R4bTjYpNSNBzIM7Sa4QfS4n0nz9c6r-rwV1c1xJDjmU4oaxa-g__"
+                            alt="web_stories image" width="100%" height="100%">
+                        <div class="web_stories_details">
+                            <p class="web_stories_content">Home Buying Process in Mumbai: Types of Properties and Home
+                                Loan
+                            </p>
+                            <p class="web_stories_date">Dec 26 , 2023 by <span style="color: #FD3753;">Akash
+                                    Tiwari</span></p>
+                        </div>
+                    </div>
+
+                    <div class="nb_blog_web_stories">
+                        <img src="https://s3-alpha-sig.figma.com/img/2be9/5c04/d7480404f2e56d582d83e9a6b6fd35be?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ErndKX8-n1J-zLOd0ZhYJNEswbUPRgsHSdI0hw0UG3mBcHHdHcw-qgJ0DDtb9i9FCX2ft45sXVxU8y83mWm69hTYJrq36HB9d-uMezRsP0KiJcdrXTozocveKbgrrGDWvNKHKnDIlSqEk~3wDTRyxJQNrW0uIIB5U~DTFl019Kf8qpQXoBk~9I~ABLFSaZmS6EA-oaY7u~pCRkGLcL~2MSgbLgpx-8irfIrWZCr7zg6wOvMTnQrpirk~IZfSHrwwaQiY0gr5ESk-eEsglTT~kB51kffbFwtlFcu6R4bTjYpNSNBzIM7Sa4QfS4n0nz9c6r-rwV1c1xJDjmU4oaxa-g__"
+                            alt="web_stories image" width="100%" height="100%">
+                        <div class="web_stories_details">
+                            <p class="web_stories_content">Home Buying Process in Mumbai: Types of Properties and Home
+                                Loan
+                            </p>
+                            <p class="web_stories_date">Dec 26 , 2023 by <span style="color: #FD3753;">Akash
+                                    Tiwari</span></p>
+                        </div>
+                    </div>
+
+                    <div class="nb_blog_web_stories">
+                        <img src="https://s3-alpha-sig.figma.com/img/2be9/5c04/d7480404f2e56d582d83e9a6b6fd35be?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ErndKX8-n1J-zLOd0ZhYJNEswbUPRgsHSdI0hw0UG3mBcHHdHcw-qgJ0DDtb9i9FCX2ft45sXVxU8y83mWm69hTYJrq36HB9d-uMezRsP0KiJcdrXTozocveKbgrrGDWvNKHKnDIlSqEk~3wDTRyxJQNrW0uIIB5U~DTFl019Kf8qpQXoBk~9I~ABLFSaZmS6EA-oaY7u~pCRkGLcL~2MSgbLgpx-8irfIrWZCr7zg6wOvMTnQrpirk~IZfSHrwwaQiY0gr5ESk-eEsglTT~kB51kffbFwtlFcu6R4bTjYpNSNBzIM7Sa4QfS4n0nz9c6r-rwV1c1xJDjmU4oaxa-g__"
+                            alt="web_stories image" width="100%" height="100%">
+                        <div class="web_stories_details">
+                            <p class="web_stories_content">Home Buying Process in Mumbai: Types of Properties and Home
+                                Loan
+                            </p>
+                            <p class="web_stories_date">Dec 26 , 2023 by <span style="color: #FD3753;">Akash
+                                    Tiwari</span></p>
+                        </div>
+                    </div>
+
+                    <div class="nb_blog_web_stories">
+                        <img src="https://s3-alpha-sig.figma.com/img/2be9/5c04/d7480404f2e56d582d83e9a6b6fd35be?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ErndKX8-n1J-zLOd0ZhYJNEswbUPRgsHSdI0hw0UG3mBcHHdHcw-qgJ0DDtb9i9FCX2ft45sXVxU8y83mWm69hTYJrq36HB9d-uMezRsP0KiJcdrXTozocveKbgrrGDWvNKHKnDIlSqEk~3wDTRyxJQNrW0uIIB5U~DTFl019Kf8qpQXoBk~9I~ABLFSaZmS6EA-oaY7u~pCRkGLcL~2MSgbLgpx-8irfIrWZCr7zg6wOvMTnQrpirk~IZfSHrwwaQiY0gr5ESk-eEsglTT~kB51kffbFwtlFcu6R4bTjYpNSNBzIM7Sa4QfS4n0nz9c6r-rwV1c1xJDjmU4oaxa-g__"
+                            alt="web_stories image" width="100%" height="100%">
+                        <div class="web_stories_details">
+                            <p class="web_stories_content">Home Buying Process in Mumbai: Types of Properties and Home
+                                Loan
+                            </p>
+                            <p class="web_stories_date">Dec 26 , 2023 by <span style="color: #FD3753;">Akash
+                                    Tiwari</span></p>
+                        </div>
+                    </div>
+
+                    <div class="nb_blog_web_stories">
+                        <img src="https://s3-alpha-sig.figma.com/img/2be9/5c04/d7480404f2e56d582d83e9a6b6fd35be?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ErndKX8-n1J-zLOd0ZhYJNEswbUPRgsHSdI0hw0UG3mBcHHdHcw-qgJ0DDtb9i9FCX2ft45sXVxU8y83mWm69hTYJrq36HB9d-uMezRsP0KiJcdrXTozocveKbgrrGDWvNKHKnDIlSqEk~3wDTRyxJQNrW0uIIB5U~DTFl019Kf8qpQXoBk~9I~ABLFSaZmS6EA-oaY7u~pCRkGLcL~2MSgbLgpx-8irfIrWZCr7zg6wOvMTnQrpirk~IZfSHrwwaQiY0gr5ESk-eEsglTT~kB51kffbFwtlFcu6R4bTjYpNSNBzIM7Sa4QfS4n0nz9c6r-rwV1c1xJDjmU4oaxa-g__"
+                            alt="web_stories image" width="100%" height="100%">
+                        <div class="web_stories_details">
+                            <p class="web_stories_content">Home Buying Process in Mumbai: Types of Properties and Home
+                                Loan
+                            </p>
+                            <p class="web_stories_date">Dec 26 , 2023 by <span style="color: #FD3753;">Akash
+                                    Tiwari</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- webstories ends -->
+
+
+            <!-- youtube video starts -->
+            <section class="nb_blog_youtube_carousel">
+                <h2 class="nb_blog_youtube_heading">Youtube Videos</h2>
+                <!-- left arrow -->
+                <i id="leftarrow">
+                    <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                            transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#98A1E0"
+                                strokewidth="0">
+                            </rect>
+                        </g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </i>
+                <!-- right arrow -->
+                <i id="rightarrow">
+                    <svg width="25" height="25" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"
+                            transform="translate(1.1999999999999993,1.1999999999999993), scale(0.9)">
+                            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#98A1E0"
+                                strokewidth="0">
+                            </rect>
+                        </g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </i>
+                <div class="nb_blog_youtube_heading_carousel">
+
+                    <!-- category carousel card1 -->
+                    <div class="nb_blog_youtube_card">
+                        <iframe width="344" height="166" src="https://www.youtube.com/embed/WMkB7yDl5WM"
+                            title="Sarjapur, Bangalore Review: Connectivity, Property Prices, and More" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="nb_blog_youtube_card">
+                        <iframe width="344" height="166" src="https://www.youtube.com/embed/WMkB7yDl5WM"
+                            title="Sarjapur, Bangalore Review: Connectivity, Property Prices, and More" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+
+                    <div class="nb_blog_youtube_card">
+                        <iframe width="344" height="166" src="https://www.youtube.com/embed/WMkB7yDl5WM"
+                            title="Sarjapur, Bangalore Review: Connectivity, Property Prices, and More" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+
+                    <div class="nb_blog_youtube_card">
+                        <iframe width="344" height="166" src="https://www.youtube.com/embed/WMkB7yDl5WM"
+                            title="Sarjapur, Bangalore Review: Connectivity, Property Prices, and More" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+
+                    <div class="nb_blog_youtube_card">
+                        <iframe width="344" height="166" src="https://www.youtube.com/embed/WMkB7yDl5WM"
+                            title="Sarjapur, Bangalore Review: Connectivity, Property Prices, and More" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+            </section>
+            <!-- youtube section ends -->
+
+            <!-- category accordian starts -->
+            <section class="nb_blog_accordian_section" id="accordianSection">
+                <!--  -->
+
+                <div class="accordian_tab_container">
+                    <!-- TAB CONTROLS -->
+                    <div class="nb_blog_accordian_tab_head">
+                        <button class="nb_blog_tab_button active"
+                            onclick="openfeat(event, 'RealEstate','accordianSection')">Real Estate</button>
+                        <button class="nb_blog_tab_button"
+                            onclick="openfeat(event,'HomeServices','accordianSection')">Home
+                            Services</button>
+                        <button class="nb_blog_tab_button"
+                            onclick="openfeat(event, 'Finance','accordianSection')">Finance</button>
+                        <button class="nb_blog_tab_button"
+                            onclick="openfeat(event,'Interiors','accordianSection')">Interiors</button>
+                        <button class="nb_blog_tab_button"
+                            onclick="openfeat(event, 'Legal','accordianSection')">Legal</button>
+                        <button class="nb_blog_tab_button" onclick="openfeat(event,'P&M','accordianSection')">Packers &
+                            Movers</button>
+                        <button class="nb_blog_tab_button"
+                            onclick="openfeat(event, 'NRI','accordianSection')">NRI</button>
+                        <button class="nb_blog_tab_button"
+                            onclick="openfeat(event,'Payments','accordianSection')">Payments</button>
+                        <button class="nb_blog_tab_button"
+                            onclick="openfeat(event, 'News','accordianSection')">News</button>
+                    </div>
+
+                    <div class="accordian_tab-content features" id="RealEstate">
+                        <div class="column">
+                            <a href="#">accordian_tab_content accordian_tab_content 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 4</a>
+                            <a href="#">Link 5</a>
+                            <a href="#">Link 6</a>
+                            <a href="#">Link 7</a>
+                            <a href="#">Link 8</a>
+                            <a href="#">Link 9</a>
+                            <a href="#">Link 10</a>
+                        </div>
+                        <div class="column">
+                            <a href="#">accordian_tab_content 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 4</a>
+                            <a href="#">Link 5</a>
+                            <a href="#">Link 6</a>
+                            <a href="#">Link 7</a>
+                            <a href="#">Link 8</a>
+                            <a href="#">Link 9</a>
+                            <a href="#">Link 10</a>
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <div class="accordian_tab-content features" id="HomeServices" style="display: none;">
+                        <div class="column">
+                            <a href="#">accordian_tab_content accordian_tab_content 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 4</a>
+                            <a href="#">Link 5</a>
+                            <a href="#">Link 6</a>
+                            <a href="#">Link 7</a>
+                            <a href="#">Link 8</a>
+                            <a href="#">Link 9</a>
+                            <a href="#">Link 10</a>
+                        </div>
+                        <div class="column">
+                            <a href="#">accordian_tab_content 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 4</a>
+                            <a href="#">Link 5</a>
+                            <a href="#">Link 6</a>
+                            <a href="#">Link 7</a>
+                            <a href="#">Link 8</a>
+                            <a href="#">Link 9</a>
+                            <a href="#">Link 10</a>
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <div class="accordian_tab-content features" id="Finance" style="display: none;">
+                        <p>TAB content</p>
+                        <p>CSS Grid is the...</p>
+                    </div>
+                    <!--  -->
+
+                    <div class="accordian_tab-content features" id="Interiors" style="display: none;">
+                        <p>TABntent</p>
+                        <p>CSS Grid is the future!</p>
+                    </div>
+                    <!--  -->
+
+                    <div class="accordian_tab-content features" id="Legal" style="display: none;">
+                        <p>TAB [1 ] content</p>
+                        <p>CSS...</p>
+                    </div>
+                    <!--  -->
+
+                    <div class="accordian_tab-content features" id="P&M" style="display: none;">
+                        <p>TAB [ 2 ] content</p>
+                        <p>CSS Grid...</p>
+                    </div>
+                    <!--  -->
+
+                    <div class="accordian_tab-content features" id="NRI" style="display: none;">
+                        <p>TAB content</p>
+                        <p>CSS Grid is the...</p>
+                    </div>
+                    <!--  -->
+
+                    <div class="accordian_tab-content features" id="Payments" style="display: none;">
+                        <p>TABntent</p>
+                        <p>CSS Grid is the future!</p>
+                    </div>
+                    <!--  -->
+
+                    <div class="accordian_tab-content features" id="News" style="display: none;">
+                        <p>TAB [1 ] content</p>
+                        <p>CSS...</p>
+                    </div>
+                    <!--  -->
+
+
+                </div>
+            </section>
+        </section>
+        <!-- download section -->
+        <div class="nb_blog_foo_download">
+            <div class="download_img">
+                <img alt="apps" src="https://assets.nobroker.in/nb-new/public/Home/homeAppPromotion.png" width="80%">
+            </div>
+            <div class="download_descriptions">
+                <div class="dwnld_head">Find A New Home On The Go</div>
+                <div class="dwnld_app">
+                    <h4>Download our app</h4>
+                    <p>Where convenience is at your fingertip</p>
+                </div>
+                <div class="dwnld_img_link">
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.nobroker.app&amp;utm_source=cityatlas&amp;utm_medium=website">
+                        <img src="https://www.nobroker.in/locality-iq/images/en_badge_web_generic-1.png" alt=""
+                            width="100%">
+                    </a>
+
+                    <a
+                        href="https://apps.apple.com/nz/app/nobroker-rent-buy-sell-flats/id1200507100?referrer=utm_source=cityatlas&amp;utm_medium=website">
+                        <img src="https://www.nobroker.in/locality-iq/images/Download_on_the_App_Store_Badge-1.png"
+                            alt="" width="100%">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- download section ends -->
+
+
+        <!-- footer service starts -->
+        <div class="footer_service">
+            <h3>NoBroker services</h3>
+            <div class="foo_service_container">
+                <div class="foo_service_buy">
+                    <span>Buy</span>
+                    <div class="foo_buy_container">
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+
+                    </div>
+                </div>
+                <div class="foo_service_rent">
+                    <span>Rent</span>
+                    <div class="foo_rent_container">
+                        <a href="">Rental agreement</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                        <a href="">Home loan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer service ends -->
+
+        <!-- footer property -->
+        <div class="nb_foo_property">
+            <div class="foo_find_prop">
+                <h4>Find Property</h4>
+                <p>Select from thousands of options, without brokerage.</p>
+                <a href="">Find Now</a>
+            </div>
+            <div class="foo_list_prop">
+                <h4>List Your Property</h4>
+                <p>For Free. Without any brokerage.</p>
+                <a href="">Free Posting</a>
+            </div>
+        </div>
+        <!-- footer property ends -->
+
+
+        <!-- footer links -->
+        <div class="nb_blog_foo_links">
+            <a href="">About Us</a>
+            <a href="">Careers</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Testimonials</a>
+            <a href="">Sitemap</a>
+            <a href="">FAQs</a>
+        </div>
+
+        <!-- footer icons -->
+        <div class="nb_blog_foo_icons">
+            <div class="foo_icons_dwnld_img">
+                <a href="https://nobroker.in/app?type=android" target="_blank" rel="noopener" aria-label="android"><img
+                        src="https://assets.nobroker.in/nb-new/public/Common/android_download.svg" alt="android"
+                        loading="lazy" width="108px" height="34px"></a>
+                <a href="https://nobroker.in/app?type=ios" target="_blank" rel="noopener" aria-label="ios"><img
+                        src="https://assets.nobroker.in/nb-new/public/Common/IOS_download.svg" alt="ios" loading="lazy"
+                        width="108px" height="34px"></a>
+            </div>
+
+            <div class="foo_media_icons">
+                <a href="https://www.facebook.com/nobroker.com" target="_blank" rel="noopener"
+                    aria-label="facebook"><img src="https://assets.nobroker.in/nb-new/public/Common/social/facebook.svg"
+                        alt="facebook" width="19px" height="19px" loading="lazy"></a>
+                <a href="https://twitter.com/nobrokercom" target="_blank" rel="noopener" aria-label="twitter"><img
+                        src="https://assets.nobroker.in/nb-new/public/Common/social/twitter.svg" alt="twitter"
+                        width="19px" height="19px" loading="lazy"></a>
+                <a href="https://www.instagram.com/nobroker/" target="_blank" rel="noopener" aria-label="instagram"><img
+                        src="https://assets.nobroker.in/nb-new/public/Common/social/instagram.svg" alt="instagram"
+                        width="19px" height="19px" loading="lazy"></a>
+                <a href="https://www.linkedin.com/company/nobroker-in/" target="_blank" rel="noopener"
+                    aria-label="linkedin"><img src="https://assets.nobroker.in/nb-new/public/Common/social/linkedin.svg"
+                        alt="linkedin" width="19px" height="19px" loading="lazy"></a>
+                <a href="https://www.youtube.com/c/NoBrokercomOfficial" target="_blank" rel="noopener"
+                    aria-label="youtube"><img src="https://assets.nobroker.in/nb-new/public/Common/social/youtube.svg"
+                        alt="youtube" width="19px" height="19px" loading="lazy"></a>
+            </div>
+
+        </div>
+        <div class="nb_blog_foo_copywrights">© 2013-23 NoBroker Technologies Solution Pvt. Ltd.</div>
+
+
+    </footer>
+
+
+
+
+
+
+    <!-- scripts -->
+    <script>
+
+        // hamburger
+        const isMobile = window.innerWidth <= 660;
+        const searchButton = document.getElementById('nav_search_icon');
+        const hamburgerButton = document.getElementById('hamburger');
+        const dropdownContent = document.getElementById('dropdownContent');
+        const mobileBackground = document.getElementById('mobileBackground');
+        const searchInput = document.getElementById('searchInput');
+        const navCloseBtn = document.querySelector('.nav_close_btn');
+
+        if (isMobile) {
+            searchButton.addEventListener('click', toggleSearchDropdown);
+        }
+        hamburgerButton.addEventListener('click', toggleDropdown);
+
+        document.body.addEventListener('click', (event) => {
+            if (!dropdownContent.contains(event.target) && !searchButton.contains(event.target) && !hamburgerButton.contains(event.target)) {
+                dropdownContent.classList.remove('active');
+                mobileBackground.classList.remove('active');
+            }
+        });
+
+        function toggleDropdown() {
+            dropdownContent.classList.toggle('active');
+            mobileBackground.classList.toggle('active');
+        }
+        function toggleSearchDropdown() {
+            dropdownContent.classList.toggle('active');
+            mobileBackground.classList.toggle('active');
+            searchInput.focus();
+        }
+        navCloseBtn.addEventListener('click', (e) => {
+            dropdownContent.classList.remove('active');
+            mobileBackground.classList.remove('active');
+        })
+
+        // carousel
+
+        function setupCarousel(carouselSelector, arrowBtnSelector, cardSelector, offsetMultiplier = 2) {
+            const carousel = document.querySelector(carouselSelector);
+            const arrowbtn = document.querySelectorAll(arrowBtnSelector);
+            const firstcard = carousel.querySelector(cardSelector).offsetWidth * offsetMultiplier;
+
+            function toggleArrows() {
+                const maxScrollLeft = carousel.scrollWidth - carousel.clientWidth;
+                const remainingScroll = maxScrollLeft - carousel.scrollLeft;
+
+                if (carousel.scrollLeft === 0) {
+                    arrowbtn[0].style.display = "none";
+                    arrowbtn[1].style.display = "block";
+                } else if (remainingScroll <= 1) {
+                    arrowbtn[0].style.display = "block";
+                    arrowbtn[1].style.display = "none";
+                } else {
+                    arrowbtn[0].style.display = "block";
+                    arrowbtn[1].style.display = "block";
+                }
+            }
+
+            toggleArrows();
+
+            arrowbtn.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    carousel.scrollLeft += btn.id.includes("leftarrow") ? -firstcard : firstcard;
+                });
+            });
+
+            carousel.addEventListener("scroll", toggleArrows);
+        }
+
+        // hero section carousel
+        setupCarousel('.nb_blog_hero_carousel', '.nb_blog_right_hero i', '.nb_blog_hero_carousel_card');
+
+        // category carousel
+        setupCarousel('.nb_blog_category_carousel', '.nb_blog_category_sec i', '.nb_blog_category');
+
+
+        // webstories
+        setupCarousel('.nb_blog_web_stories_carousel', '.nb_blog_web_stories_section i', '.nb_blog_web_stories');
+
+
+        // youtube
+        setupCarousel('.nb_blog_youtube_heading_carousel', '.nb_blog_youtube_carousel i', '.nb_blog_youtube_card');
+
+        // carousel ends
+
+
+        function initializeCarousel(carousel, cardClassName) {
+            const arrowbtn = carousel.querySelectorAll('i');
+
+            function toggleArrows() {
+                const maxScrollLeft = carousel.scrollWidth - carousel.clientWidth;
+                const buffer = 1; // Adjust the buffer as needed
+
+                if (carousel.scrollLeft <= buffer) {
+                    arrowbtn[0].style.display = "none";
+                    arrowbtn[1].style.display = "block";
+                } else if (carousel.scrollLeft >= maxScrollLeft - buffer) {
+                    arrowbtn[0].style.display = "block";
+                    arrowbtn[1].style.display = "none";
+                } else {
+                    arrowbtn[0].style.display = "block";
+                    arrowbtn[1].style.display = "block";
+                }
+            }
+
+            toggleArrows();
+
+            arrowbtn.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    const firstcard = carousel.querySelector(`.${cardClassName}`).offsetWidth * 2.2;
+                    carousel.scrollLeft += btn.id === "leftarrow" ? -firstcard : firstcard;
+                });
+            });
+            carousel.addEventListener("scroll", toggleArrows);
+        }
+
+        document.querySelectorAll('.nb_blog_what_new_carousel').forEach(carousel => {
+            initializeCarousel(carousel, 'nb_blog_what_new_card');
+        });
+        document.querySelectorAll('.nb_blog_trending_carousel').forEach(carousel => {
+            initializeCarousel(carousel, 'nb_blog_trending_card');
+        });
+
+
+        // tabs
+        function openfeat(feat, features, sectionId) {
+            // Declare all variables
+            let i, tabcontentfea, tablinksfea;
+
+            // Get all elements with class="tabcontent" within the specified section and hide them
+            tabcontentfea = document.querySelectorAll(`#${sectionId} .features`);
+            tabcontentfea.forEach(tab => {
+                tab.style.display = "none";
+            });
+
+            // Get all elements with class="tablinks" within the specified section and remove the class "active"
+            tablinksfea = document.querySelectorAll(`#${sectionId} .nb_blog_tab_button`);
+            tablinksfea.forEach(tab => {
+                tab.classList.remove("active");
+            });
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(features).style.display = "flex";
+            feat.target.classList.add("active");
+
+            // Initialize the carousel in the current tab
+            const carousel = document.getElementById(features).querySelector('.nb_blog_what_new_carousel');
+            const trendingCarousel = document.getElementById(features).querySelector('.nb_blog_trending_carousel')
+            initializeCarousel(carousel);
+            initializeCarousel(trendingCarousel);
+
+            // Scroll the clicked button into view if necessary
+            feat.target.scrollIntoViewIfNeeded({ behavior: 'smooth', block: 'center', inline: 'center' });
+        }
+
+
+
+
+        // Function to toggle popup visibility
+        const overlay = document.querySelector(".overlay");
+        const popupContainer = document.getElementById("popup-container");
+        const popup = document.getElementById("popup");
+        const closeBtn = document.querySelector(".close-btn");
+        let isOpen = false;
+
+        // Function to open the popup
+        function openPopup() {
+            overlay.style.display = "block";
+            popupContainer.style.display = "block";
+            popup.classList.add("open");
+            isOpen = true;
+        }
+
+        // Function to close the popup
+        function closePopup() {
+            popup.classList.remove("open");
+            setTimeout(() => {
+                overlay.style.display = "none";
+                popupContainer.style.display = "none";
+            }, 300); // Delay hiding the overlay to match transition duration
+            isOpen = false;
+        }
+
+        // Check if the viewport width is less than or equal to 768px (assuming this is mobile view)
+        if (window.innerWidth <= 768) {
+            // Set timeout to open the popup after 5 seconds (5000 milliseconds)
+            setTimeout(openPopup, 5000);
+        }
+
+        // Event listener for close button
+        closeBtn.addEventListener("click", closePopup);
+
+        // Event listener for button to open the popup
+        const openBtn = document.getElementById("open-popup");
+        openBtn.addEventListener("click", () => {
+            if (!isOpen) {
+                openPopup();
+            }
+        });
+
+
+
+
+
+        // select 3 category
+        const categories = document.querySelectorAll('.category');
+        const submitBtn = document.getElementById('submit-btn');
+        const errorMessage = document.getElementById('error-message');
+
+        let selectedCategories = [];
+
+        categories.forEach(category => {
+            category.addEventListener('click', () => {
+                category.classList.toggle('selected');
+                const categoryId = parseInt(category.getAttribute('data-id'));
+
+                if (category.classList.contains('selected')) {
+                    selectedCategories.push(categoryId);
+                } else {
+                    selectedCategories = selectedCategories.filter(id => id !== categoryId);
+                }
+            });
+        });
+
+        submitBtn.addEventListener('click', () => {
+            if (selectedCategories.length < 3) {
+                errorMessage.style.display = 'block';
+            } else {
+                // Proceed with the selected categories
+                console.log(selectedCategories);
+                errorMessage.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
